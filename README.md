@@ -17,8 +17,8 @@ A C++ project using SFML to visualize the A* pathfinding algorithm on a 2D grid.
 1. **Install SFML** by following [this guide](https://www.sfml-dev.org/tutorials/).
 2. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/astar-visualizer.git
-    cd astar-visualizer
+    git clone [https://github.com/yourusername/astar-visualizer.git](https://github.com/Hemanth18052002/A-Pathfinding-Visualizer.git)
+    cd A-Pathfinding-Visualizer
     ```
 3. **Build**:
     ```bash
