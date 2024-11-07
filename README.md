@@ -9,7 +9,8 @@ A C++ project using SFML to visualize the A* pathfinding algorithm on a 2D grid.
 - Visualization of visited nodes and the shortest path
 
 ## Demo
-![A* Visualizer Demo](assets/demo.gif)
+<img width="401" alt="{78DE140F-C22F-416A-95B1-605BA378F7FF}" src="https://github.com/user-attachments/assets/b208dd0e-19b4-456d-8a5e-3d9c94a64cfd">
+
 
 ## Installation
 [Youtube Video](https://youtu.be/rZE700aaT5I?si=u1IdfY_vDQfHFcPy)
