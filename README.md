@@ -8,27 +8,27 @@ The A* (A-star) algorithm is a popular and efficient pathfinding algorithm widel
 ## Core Concepts of A* Algorithm
 ### Grid Representation:
 
-The 2D grid is divided into cells or nodes, where each cell has coordinates (x, y). These cells represent possible positions or locations in the search space.
-Certain cells can be marked as obstacles, making them non-traversable.
+The 2D grid is divided into cells or nodes, where each cell has coordinates (x, y). These cells represent possible positions or locations in the search space.<br />
+Certain cells can be marked as obstacles, making them non-traversable. <br />
 ### Cost Functions:
 
-A* relies on three key cost functions:
-g(n): The exact cost to reach a node n from the start node.
-h(n): The heuristic estimated cost to get from node n to the goal node. Common heuristic functions include:
-Manhattan Distance (|x1 - x2| + |y1 - y2|): Suitable for grids where movement is restricted to four directions (up, down, left, right).
-Euclidean Distance (√((x1 - x2)^2 + (y1 - y2)^2)): Useful when diagonal movement is allowed.
-Diagonal Distance: Suitable when diagonal moves have the same cost as horizontal and vertical moves.
-f(n): The total cost function, calculated as:
-f(n)=g(n)+h(n)
-This is the score that determines the "priority" of each node in A*, combining the known path cost and the heuristic estimate.
+A* relies on three key cost functions:<br />
+g(n): The exact cost to reach a node n from the start node.<br />
+h(n): The heuristic estimated cost to get from node n to the goal node. Common heuristic functions include:<br />
+Manhattan Distance (|x1 - x2| + |y1 - y2|): Suitable for grids where movement is restricted to four directions (up, down, left, right).<br />
+Euclidean Distance (√((x1 - x2)^2 + (y1 - y2)^2)): Useful when diagonal movement is allowed.<br />
+Diagonal Distance: Suitable when diagonal moves have the same cost as horizontal and vertical moves.<br />
+f(n): The total cost function, calculated as:<br />
+f(n)=g(n)+h(n)<br />
+This is the score that determines the "priority" of each node in A*, combining the known path cost and the heuristic estimate.<br />
 ### Open and Closed Lists:
 
-Open List: A priority queue of nodes that need to be evaluated. Nodes are sorted by their f(n) values, with the lowest value (most promising path) at the front.
-Closed List: A set of nodes that have already been evaluated to prevent reprocessing and looping.
+Open List: A priority queue of nodes that need to be evaluated. Nodes are sorted by their f(n) values, with the lowest value (most promising path) at the front.<br />
+Closed List: A set of nodes that have already been evaluated to prevent reprocessing and looping.<br />
 ### Heuristics and Admissibility:
 
-A*’s heuristic function h(n) is said to be admissible if it never overestimates the cost to reach the goal, ensuring that A* finds an optimal path if it exists.
-An admissible heuristic guarantees that A*’s solution is optimal, while an inconsistent heuristic (one that sometimes overestimates) might still provide quick, although not necessarily optimal, paths.
+A*’s heuristic function h(n) is said to be admissible if it never overestimates the cost to reach the goal, ensuring that A* finds an optimal path if it exists.<br />
+An admissible heuristic guarantees that A*’s solution is optimal, while an inconsistent heuristic (one that sometimes overestimates) might still provide quick, although not necessarily optimal, paths.<br />
 
 
 
