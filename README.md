@@ -12,6 +12,7 @@ A C++ project using SFML to visualize the A* pathfinding algorithm on a 2D grid.
 ![A* Visualizer Demo](assets/demo.gif)
 
 ## Installation
+[Youtube Video](https://youtu.be/rZE700aaT5I?si=u1IdfY_vDQfHFcPy)
 1. **Install SFML** by following [this guide](https://www.sfml-dev.org/tutorials/).
 2. **Clone the Repository**:
     ```bash
